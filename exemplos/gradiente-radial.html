@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <style>
+        .radial-box {
+            height: 200px;
+            margin: 15px 0;
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+        }
+
+        /* Gradiente radial simples */
+        .radial-simple {
+            background: radial-gradient(#3498db, #2c3e50);
+        }
+
+        /* Gradiente radial circular */
+        .radial-circle {
+            background: radial-gradient(circle, #e74c3c, #c0392b, #000);
+        }
+
+        /* Gradiente radial elíptico */
+        .radial-ellipse {
+            background: radial-gradient(ellipse, #2ecc71, #27ae60, #16a085);
+        }
+
+        /* Gradiente radial posicionado */
+        .radial-positioned {
+            background: radial-gradient(circle at top left, #f39c12, #e67e22, #d35400);
+        }
+
+        /* Gradiente radial com tamanho */
+        .radial-sized {
+            background: radial-gradient(circle closest-side at 50% 50%, #9b59b6, #8e44ad, #2c3e50);
+        }
+
+        /* Múltiplos gradientes radiais */
+        .radial-multi {
+            background:
+                radial-gradient(circle at 20% 50%, rgba(255, 0, 0, 0.5), transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(0, 0, 255, 0.5), transparent 50%),
+                #2c3e50;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Gradientes Radiais</h2>
+
+    <div class="radial-box radial-simple">
+        Gradiente Radial Simples
+    </div>
+
+    <div class="radial-box radial-circle">
+        Gradiente Radial Circular
+    </div>
+
+    <div class="radial-box radial-ellipse">
+        Gradiente Radial Elíptico
+    </div>
+
+    <div class="radial-box radial-positioned">
+        Gradiente Radial Posicionado (top left)
+    </div>
+
+    <div class="radial-box radial-sized">
+        Gradiente Radial com Tamanho Definido
+    </div>
+
+    <div class="radial-box radial-multi">
+        Múltiplos Gradientes Radiais
+    </div>
+</body>
+
+</html>

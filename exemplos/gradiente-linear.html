@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <style>
+        .gradient-box {
+            height: 150px;
+            margin: 15px 0;
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+        }
+
+        /* Gradiente vertical (padrão) */
+        .gradient-vertical {
+            background: linear-gradient(#3498db, #2ecc71);
+        }
+
+        /* Gradiente horizontal */
+        .gradient-horizontal {
+            background: linear-gradient(to right, #e74c3c, #f39c12);
+        }
+
+        /* Gradiente diagonal */
+        .gradient-diagonal {
+            background: linear-gradient(45deg, #9b59b6, #3498db);
+        }
+
+        /* Gradiente com múltiplas cores */
+        .gradient-multi {
+            background: linear-gradient(to right, #e74c3c, #f39c12, #2ecc71, #3498db, #9b59b6);
+        }
+
+        /* Gradiente com pontos de parada */
+        .gradient-stops {
+            background: linear-gradient(to right,
+                    #3498db 0%,
+                    #3498db 30%,
+                    #e74c3c 30%,
+                    #e74c3c 100%);
+        }
+
+        /* Gradiente com transparência */
+        .gradient-transparent {
+            background-color: #3498db;
+            background-image: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0),
+                    rgba(0, 0, 0, 0.5));
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Gradientes Lineares</h2>
+
+    <div class="gradient-box gradient-vertical">
+        Gradiente Vertical (top to bottom)
+    </div>
+
+    <div class="gradient-box gradient-horizontal">
+        Gradiente Horizontal (left to right)
+    </div>
+
+    <div class="gradient-box gradient-diagonal">
+        Gradiente Diagonal (45deg)
+    </div>
+
+    <div class="gradient-box gradient-multi">
+        Gradiente com Múltiplas Cores
+    </div>
+
+    <div class="gradient-box gradient-stops">
+        Gradiente com Pontos de Parada Definidos
+    </div>
+
+    <div class="gradient-box gradient-transparent">
+        Gradiente com Transparência
+    </div>
+</body>
+
+</html>
