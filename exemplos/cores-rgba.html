@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+
+        .rgba-box {
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .rgba-solid {
+            background-color: rgba(255, 0, 0, 1.0);
+        }
+
+        .rgba-75 {
+            background-color: rgba(255, 0, 0, 0.75);
+        }
+
+        .rgba-50 {
+            background-color: rgba(255, 0, 0, 0.5);
+        }
+
+        .rgba-25 {
+            background-color: rgba(255, 0, 0, 0.25);
+        }
+
+        .overlay {
+            position: relative;
+            background-image: url('https://via.placeholder.com/400x300');
+        }
+
+        .overlay-text {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Níveis de Transparência</h2>
+    <div class="rgba-box rgba-solid">Alpha: 1.0 (100%)</div>
+    <div class="rgba-box rgba-75">Alpha: 0.75 (75%)</div>
+    <div class="rgba-box rgba-50">Alpha: 0.5 (50%)</div>
+    <div class="rgba-box rgba-25">Alpha: 0.25 (25%)</div>
+
+    <div class="overlay">
+        <div class="overlay-text">
+            Texto com fundo semi-transparente
+        </div>
+    </div>
+</body>
+
+</html>

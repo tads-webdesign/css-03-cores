@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <style>
+        .hsl-box {
+            padding: 15px;
+            margin: 10px 0;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Matizes diferentes (variando Hue) */
+        .hsl-red {
+            background-color: hsl(0, 100%, 50%);
+        }
+
+        .hsl-orange {
+            background-color: hsl(30, 100%, 50%);
+        }
+
+        .hsl-yellow {
+            background-color: hsl(60, 100%, 50%);
+        }
+
+        .hsl-green {
+            background-color: hsl(120, 100%, 50%);
+        }
+
+        .hsl-blue {
+            background-color: hsl(240, 100%, 50%);
+        }
+
+        .hsl-purple {
+            background-color: hsl(280, 100%, 50%);
+        }
+
+        /* Variando Saturação */
+        .hsl-sat-100 {
+            background-color: hsl(200, 100%, 50%);
+        }
+
+        .hsl-sat-75 {
+            background-color: hsl(200, 75%, 50%);
+        }
+
+        .hsl-sat-50 {
+            background-color: hsl(200, 50%, 50%);
+        }
+
+        .hsl-sat-25 {
+            background-color: hsl(200, 25%, 50%);
+        }
+
+        /* Variando Luminosidade */
+        .hsl-light-80 {
+            background-color: hsl(200, 100%, 80%);
+            color: black;
+        }
+
+        .hsl-light-60 {
+            background-color: hsl(200, 100%, 60%);
+        }
+
+        .hsl-light-40 {
+            background-color: hsl(200, 100%, 40%);
+        }
+
+        .hsl-light-20 {
+            background-color: hsl(200, 100%, 20%);
+        }
+
+        /* HSLA com transparência */
+        .hsla-trans {
+            background-color: hsla(120, 100%, 50%, 0.5);
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Variação de Matiz (Hue)</h2>
+    <div class="hsl-box hsl-red">Vermelho: hsl(0, 100%, 50%)</div>
+    <div class="hsl-box hsl-orange">Laranja: hsl(30, 100%, 50%)</div>
+    <div class="hsl-box hsl-yellow">Amarelo: hsl(60, 100%, 50%)</div>
+    <div class="hsl-box hsl-green">Verde: hsl(120, 100%, 50%)</div>
+    <div class="hsl-box hsl-blue">Azul: hsl(240, 100%, 50%)</div>
+    <div class="hsl-box hsl-purple">Roxo: hsl(280, 100%, 50%)</div>
+
+    <h2>Variação de Saturação</h2>
+    <div class="hsl-box hsl-sat-100">Saturação 100%</div>
+    <div class="hsl-box hsl-sat-75">Saturação 75%</div>
+    <div class="hsl-box hsl-sat-50">Saturação 50%</div>
+    <div class="hsl-box hsl-sat-25">Saturação 25%</div>
+
+    <h2>Variação de Luminosidade</h2>
+    <div class="hsl-box hsl-light-80">Luminosidade 80%</div>
+    <div class="hsl-box hsl-light-60">Luminosidade 60%</div>
+    <div class="hsl-box hsl-light-40">Luminosidade 40%</div>
+    <div class="hsl-box hsl-light-20">Luminosidade 20%</div>
+
+    <h2>HSLA com Transparência</h2>
+    <div class="hsla-trans">hsla(120, 100%, 50%, 0.5)</div>
+</body>
+
+</html>

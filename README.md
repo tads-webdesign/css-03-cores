@@ -36,7 +36,7 @@ As cores são elementos fundamentais no design web. No CSS 3, existem diversas f
 
 CSS possui 140 cores nomeadas predefinidas. É a forma mais simples de especificar cores.
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/cores-classes.html)
 
 ```html
 <!DOCTYPE html>
@@ -71,7 +71,7 @@ Sistema que usa valores hexadecimais (base 16) para representar cores. O formato
 - GG = componente verde (00-FF)
 - BB = componente azul (00-FF)
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/cores-hexadecimal.html)
 
 ```html
 <!DOCTYPE html>
@@ -113,7 +113,7 @@ Define cores usando valores de vermelho, verde e azul (0-255 para cada component
 
 **Sintaxe:** `rgb(red, green, blue)`
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/cores-rgb.html)
 
 ```html
 <!DOCTYPE html>
@@ -149,7 +149,7 @@ Similar ao RGB, mas adiciona um canal alpha para controlar a transparência (0.0
 
 **Sintaxe:** `rgba(red, green, blue, alpha)`
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/cores-rgba.html)
 
 ```html
 <!DOCTYPE html>
@@ -213,7 +213,7 @@ Sistema intuitivo baseado em:
 
 Também existe **HSLA** com transparência: `hsla(hue, saturation%, lightness%, alpha)`
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/cores-hsl.html)
 
 ```html
 <!DOCTYPE html>
@@ -289,7 +289,7 @@ Também existe **HSLA** com transparência: `hsla(hue, saturation%, lightness%, 
 
 Use a propriedade `color` para definir a cor do texto.
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/cores-texto.html)
 
 ```html
 <!DOCTYPE html>
@@ -334,7 +334,7 @@ Use a propriedade `color` para definir a cor do texto.
 
 Use a propriedade `background-color` para definir a cor de fundo de elementos.
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/cores-background.html)
 
 ```html
 <!DOCTYPE html>
@@ -419,7 +419,7 @@ Use a propriedade `background-color` para definir a cor de fundo de elementos.
 
 Além de `color` e `background-color`, várias outras propriedades CSS aceitam valores de cor.
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/cores-outros.html)
 
 ```html
 <!DOCTYPE html>
@@ -506,7 +506,7 @@ Cria um gradiente em linha reta.
 background: linear-gradient(direção, cor1, cor2, ...);
 ```
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/gradiente-linear.html)
 
 ```html
 <!DOCTYPE html>
@@ -607,7 +607,7 @@ Cria um gradiente circular a partir de um ponto central.
 background: radial-gradient(forma tamanho at posição, cor1, cor2, ...);
 ```
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/gradiente-radial.html)
 
 ```html
 <!DOCTYPE html>
@@ -694,7 +694,7 @@ background: radial-gradient(forma tamanho at posição, cor1, cor2, ...);
 
 ### Gradientes Avançados
 
-**Exemplos de código:**
+[Exemplos de código](exemplos/gradiante-avancado.html)
 
 ```html
 <!DOCTYPE html>
